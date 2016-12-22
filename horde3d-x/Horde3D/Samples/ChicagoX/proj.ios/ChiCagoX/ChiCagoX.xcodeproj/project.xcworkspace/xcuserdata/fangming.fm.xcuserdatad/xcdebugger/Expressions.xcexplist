@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Horde3D::ShaderResource::parseFXSection(char*):egShader.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char *)data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::ShaderResource::compileCombination(Horde3D::ShaderContext&amp;, Horde3D::ShaderCombination&amp;):egShader.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::ShaderResource::load(char const*, int):egShader.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::Modules::sceneMan():egModules.h">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::GeometryResource::load(char const*, int):egGeometry.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char *)buf">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::ShaderResource::findContext(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;):egShader.h">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::RenderDevice::applyVertexLayout():egRendererBaseGLES2.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::Renderer::drawMeshes(unsigned int, unsigned int, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, bool, Horde3D::Frustum const*, Horde3D::Frustum const*, Horde3D::RenderingOrder::List, int):egRenderer.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::ShaderResource::compileContexts():egShader.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Horde3D::RenderDevice::createShaderProgram(char const*, char const*):egRendererBaseGLES2.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

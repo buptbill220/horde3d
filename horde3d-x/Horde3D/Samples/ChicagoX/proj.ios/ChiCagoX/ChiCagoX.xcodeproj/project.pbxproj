@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0F48061CF6A0B600434DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F47FD1CF6A0B600434DFB /* main.m */; };
+		1E0F480C1CF6A23A00434DFB /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F48091CF6A23A00434DFB /* AppController.mm */; };
+		1E0F480D1CF6A23A00434DFB /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F480B1CF6A23A00434DFB /* RootViewController.mm */; };
+		1E0F48251CF6A73700434DFB /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF971991CF59D9B007244DE /* libcocos2dx.a */; };
+		1E0F48261CF6A73B00434DFB /* libHorde3DEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF971831CF59C2F007244DE /* libHorde3DEngine.a */; };
+		1E0F48271CF6A73E00434DFB /* libExtensionTerrain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF9717D1CF59BF4007244DE /* libExtensionTerrain.a */; };
+		1E0F48281CF6A74200434DFB /* libHorde3dUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF971891CF59C86007244DE /* libHorde3dUtils.a */; };
+		1E3E49F31D00051200255320 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E49F21D00051200255320 /* Content */; };
+		1EF739CB1E0BAC290027DAF9 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF739C91E0BAC290027DAF9 /* CScene.cpp */; };
+		1EF971601CF59A9D007244DE /* ChiCagoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9715F1CF59A9D007244DE /* ChiCagoXTests.m */; };
+		1EF9716B1CF59A9D007244DE /* ChiCagoXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9716A1CF59A9D007244DE /* ChiCagoXUITests.m */; };
+		1EF9718C1CF59D14007244DE /* AppDelegate1.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9718B1CF59D14007244DE /* AppDelegate1.mm */; };
+		1EF973DA1CF5A469007244DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973D91CF5A469007244DE /* AVFoundation.framework */; };
+		1EF973DC1CF5A470007244DE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973DB1CF5A470007244DE /* CoreFoundation.framework */; };
+		1EF973DE1CF5A479007244DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973DD1CF5A479007244DE /* Foundation.framework */; };
+		1EF973E01CF5A482007244DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973DF1CF5A482007244DE /* AudioToolbox.framework */; };
+		1EF973E21CF5A491007244DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973E11CF5A491007244DE /* CoreGraphics.framework */; };
+		1EF973E41CF5A49C007244DE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973E31CF5A49C007244DE /* OpenAL.framework */; };
+		1EF973E61CF5A4A2007244DE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973E51CF5A4A2007244DE /* OpenGLES.framework */; };
+		1EF973E81CF5A4AA007244DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973E71CF5A4AA007244DE /* QuartzCore.framework */; };
+		1EF973EA1CF5A4B3007244DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF973E91CF5A4B3007244DE /* UIKit.framework */; };
+		1EF975261CF5BEFA007244DE /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF9751B1CF5BDB7007244DE /* libz.1.tbd */; };
+		1EF975271CF5BF06007244DE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF9751D1CF5BDC6007244DE /* libxml2.tbd */; };
+		1EF975291CF5BF43007244DE /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF975281CF5BF43007244DE /* libwebp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EF9715C1CF59A9D007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF9713A1CF59A9D007244DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF971411CF59A9D007244DE;
+			remoteInfo = ChiCagoX;
+		};
+		1EF971671CF59A9D007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF9713A1CF59A9D007244DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF971411CF59A9D007244DE;
+			remoteInfo = ChiCagoX;
+		};
+		1EF9717C1CF59BF4007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF971781CF59BF4007244DE /* ExtensionTerrain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FCB31F3117BA692E006F51C0;
+			remoteInfo = ExtensionTerrain;
+		};
+		1EF971821CF59C2F007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF9717E1CF59C2F007244DE /* Horde3DEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FCB31E5217BA6464006F51C0;
+			remoteInfo = Horde3DEngine;
+		};
+		1EF971881CF59C86007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF971841CF59C86007244DE /* Horde3dUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FCB31F1417BA67F0006F51C0;
+			remoteInfo = Horde3dUtils;
+		};
+		1EF971981CF59D9B007244DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF971941CF59D9B007244DE /* cocos2dx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = cocos2dx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0F47FD1CF6A0B600434DFB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E0F48081CF6A23A00434DFB /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1E0F48091CF6A23A00434DFB /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		1E0F480A1CF6A23A00434DFB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1E0F480B1CF6A23A00434DFB /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		1E0F48291CF6B28E00434DFB /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		1E3E49F21D00051200255320 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
+		1EF739C91E0BAC290027DAF9 /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
+		1EF739CA1E0BAC290027DAF9 /* CScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CScene.h; sourceTree = "<group>"; };
+		1EF971421CF59A9D007244DE /* ChiCagoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiCagoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF971511CF59A9D007244DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EF971541CF59A9D007244DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF971561CF59A9D007244DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF9715B1CF59A9D007244DE /* ChiCagoXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiCagoXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF9715F1CF59A9D007244DE /* ChiCagoXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiCagoXTests.m; sourceTree = "<group>"; };
+		1EF971611CF59A9D007244DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF971661CF59A9D007244DE /* ChiCagoXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiCagoXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF9716A1CF59A9D007244DE /* ChiCagoXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiCagoXUITests.m; sourceTree = "<group>"; };
+		1EF9716C1CF59A9D007244DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF971781CF59BF4007244DE /* ExtensionTerrain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExtensionTerrain.xcodeproj; path = ../../../../../Extensions/Terrain/Source/proj.ios/ExtensionTerrain.xcodeproj; sourceTree = "<group>"; };
+		1EF9717E1CF59C2F007244DE /* Horde3DEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Horde3DEngine.xcodeproj; path = ../../../../Source/Horde3DEngine/proj.ios/Horde3DEngine.xcodeproj; sourceTree = "<group>"; };
+		1EF971841CF59C86007244DE /* Horde3dUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Horde3dUtils.xcodeproj; path = ../../../../Source/Horde3DUtils/proj.ios/Horde3dUtils.xcodeproj; sourceTree = "<group>"; };
+		1EF9718B1CF59D14007244DE /* AppDelegate1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate1.mm; path = ../../AppDelegate1.mm; sourceTree = "<group>"; };
+		1EF9718D1CF59D1E007244DE /* AppDelegate1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate1.h; path = ../../AppDelegate1.h; sourceTree = "<group>"; };
+		1EF971941CF59D9B007244DE /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../../cocos2dx-mini/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
+		1EF973D91CF5A469007244DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1EF973DB1CF5A470007244DE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1EF973DD1CF5A479007244DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EF973DF1CF5A482007244DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1EF973E11CF5A491007244DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EF973E31CF5A49C007244DE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		1EF973E51CF5A4A2007244DE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1EF973E71CF5A4AA007244DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1EF973E91CF5A4B3007244DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EF9751B1CF5BDB7007244DE /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		1EF9751D1CF5BDC6007244DE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		1EF975281CF5BF43007244DE /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp.a; path = ChiCagoX/libwebp.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF9713F1CF59A9D007244DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0F48281CF6A74200434DFB /* libHorde3dUtils.a in Frameworks */,
+				1E0F48271CF6A73E00434DFB /* libExtensionTerrain.a in Frameworks */,
+				1E0F48261CF6A73B00434DFB /* libHorde3DEngine.a in Frameworks */,
+				1E0F48251CF6A73700434DFB /* libcocos2dx.a in Frameworks */,
+				1EF975291CF5BF43007244DE /* libwebp.a in Frameworks */,
+				1EF975271CF5BF06007244DE /* libxml2.tbd in Frameworks */,
+				1EF975261CF5BEFA007244DE /* libz.1.tbd in Frameworks */,
+				1EF973EA1CF5A4B3007244DE /* UIKit.framework in Frameworks */,
+				1EF973E81CF5A4AA007244DE /* QuartzCore.framework in Frameworks */,
+				1EF973E61CF5A4A2007244DE /* OpenGLES.framework in Frameworks */,
+				1EF973E41CF5A49C007244DE /* OpenAL.framework in Frameworks */,
+				1EF973E21CF5A491007244DE /* CoreGraphics.framework in Frameworks */,
+				1EF973E01CF5A482007244DE /* AudioToolbox.framework in Frameworks */,
+				1EF973DE1CF5A479007244DE /* Foundation.framework in Frameworks */,
+				1EF973DC1CF5A470007244DE /* CoreFoundation.framework in Frameworks */,
+				1EF973DA1CF5A469007244DE /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971581CF59A9D007244DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971631CF59A9D007244DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF971391CF59A9D007244DE = {
+			isa = PBXGroup;
+			children = (
+				1EF971841CF59C86007244DE /* Horde3dUtils.xcodeproj */,
+				1EF9717E1CF59C2F007244DE /* Horde3DEngine.xcodeproj */,
+				1EF971781CF59BF4007244DE /* ExtensionTerrain.xcodeproj */,
+				1EF971941CF59D9B007244DE /* cocos2dx.xcodeproj */,
+				1E3E49F21D00051200255320 /* Content */,
+				1EF971441CF59A9D007244DE /* ChiCagoX */,
+				1EF9718A1CF59CC2007244DE /* Classes */,
+				1EF975281CF5BF43007244DE /* libwebp.a */,
+				1EF9751D1CF5BDC6007244DE /* libxml2.tbd */,
+				1EF9751B1CF5BDB7007244DE /* libz.1.tbd */,
+				1EF974551CF5ADFB007244DE /* Resources */,
+				1EF973E91CF5A4B3007244DE /* UIKit.framework */,
+				1EF973E71CF5A4AA007244DE /* QuartzCore.framework */,
+				1EF973E51CF5A4A2007244DE /* OpenGLES.framework */,
+				1EF973E31CF5A49C007244DE /* OpenAL.framework */,
+				1EF973E11CF5A491007244DE /* CoreGraphics.framework */,
+				1EF973DF1CF5A482007244DE /* AudioToolbox.framework */,
+				1EF973DD1CF5A479007244DE /* Foundation.framework */,
+				1EF973DB1CF5A470007244DE /* CoreFoundation.framework */,
+				1EF973D91CF5A469007244DE /* AVFoundation.framework */,
+				1EF9715E1CF59A9D007244DE /* ChiCagoXTests */,
+				1EF971691CF59A9D007244DE /* ChiCagoXUITests */,
+				1EF971431CF59A9D007244DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF971431CF59A9D007244DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF971421CF59A9D007244DE /* ChiCagoX.app */,
+				1EF9715B1CF59A9D007244DE /* ChiCagoXTests.xctest */,
+				1EF971661CF59A9D007244DE /* ChiCagoXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF971441CF59A9D007244DE /* ChiCagoX */ = {
+			isa = PBXGroup;
+			children = (
+				1E0F48291CF6B28E00434DFB /* Prefix.pch */,
+				1E0F47FD1CF6A0B600434DFB /* main.m */,
+				1E0F48081CF6A23A00434DFB /* AppController.h */,
+				1E0F48091CF6A23A00434DFB /* AppController.mm */,
+				1E0F480A1CF6A23A00434DFB /* RootViewController.h */,
+				1E0F480B1CF6A23A00434DFB /* RootViewController.mm */,
+				1EF971511CF59A9D007244DE /* Assets.xcassets */,
+				1EF971531CF59A9D007244DE /* LaunchScreen.storyboard */,
+				1EF971561CF59A9D007244DE /* Info.plist */,
+				1EF971451CF59A9D007244DE /* Supporting Files */,
+			);
+			path = ChiCagoX;
+			sourceTree = "<group>";
+		};
+		1EF971451CF59A9D007244DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EF9715E1CF59A9D007244DE /* ChiCagoXTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9715F1CF59A9D007244DE /* ChiCagoXTests.m */,
+				1EF971611CF59A9D007244DE /* Info.plist */,
+			);
+			path = ChiCagoXTests;
+			sourceTree = "<group>";
+		};
+		1EF971691CF59A9D007244DE /* ChiCagoXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9716A1CF59A9D007244DE /* ChiCagoXUITests.m */,
+				1EF9716C1CF59A9D007244DE /* Info.plist */,
+			);
+			path = ChiCagoXUITests;
+			sourceTree = "<group>";
+		};
+		1EF971791CF59BF4007244DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9717D1CF59BF4007244DE /* libExtensionTerrain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF9717F1CF59C2F007244DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF971831CF59C2F007244DE /* libHorde3DEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF971851CF59C86007244DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF971891CF59C86007244DE /* libHorde3dUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF9718A1CF59CC2007244DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EF739C91E0BAC290027DAF9 /* CScene.cpp */,
+				1EF739CA1E0BAC290027DAF9 /* CScene.h */,
+				1EF9718D1CF59D1E007244DE /* AppDelegate1.h */,
+				1EF9718B1CF59D14007244DE /* AppDelegate1.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1EF971951CF59D9B007244DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF971991CF59D9B007244DE /* libcocos2dx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF974551CF5ADFB007244DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF971411CF59A9D007244DE /* ChiCagoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF9716F1CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoX" */;
+			buildPhases = (
+				1EF9713E1CF59A9D007244DE /* Sources */,
+				1EF9713F1CF59A9D007244DE /* Frameworks */,
+				1EF971401CF59A9D007244DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChiCagoX;
+			productName = ChiCagoX;
+			productReference = 1EF971421CF59A9D007244DE /* ChiCagoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EF9715A1CF59A9D007244DE /* ChiCagoXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF971721CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoXTests" */;
+			buildPhases = (
+				1EF971571CF59A9D007244DE /* Sources */,
+				1EF971581CF59A9D007244DE /* Frameworks */,
+				1EF971591CF59A9D007244DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF9715D1CF59A9D007244DE /* PBXTargetDependency */,
+			);
+			name = ChiCagoXTests;
+			productName = ChiCagoXTests;
+			productReference = 1EF9715B1CF59A9D007244DE /* ChiCagoXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EF971651CF59A9D007244DE /* ChiCagoXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF971751CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoXUITests" */;
+			buildPhases = (
+				1EF971621CF59A9D007244DE /* Sources */,
+				1EF971631CF59A9D007244DE /* Frameworks */,
+				1EF971641CF59A9D007244DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF971681CF59A9D007244DE /* PBXTargetDependency */,
+			);
+			name = ChiCagoXUITests;
+			productName = ChiCagoXUITests;
+			productReference = 1EF971661CF59A9D007244DE /* ChiCagoXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF9713A1CF59A9D007244DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fangming.fm;
+				TargetAttributes = {
+					1EF971411CF59A9D007244DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7C42L52533;
+					};
+					1EF9715A1CF59A9D007244DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1EF971411CF59A9D007244DE;
+					};
+					1EF971651CF59A9D007244DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1EF971411CF59A9D007244DE;
+					};
+				};
+			};
+			buildConfigurationList = 1EF9713D1CF59A9D007244DE /* Build configuration list for PBXProject "ChiCagoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF971391CF59A9D007244DE;
+			productRefGroup = 1EF971431CF59A9D007244DE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1EF971951CF59D9B007244DE /* Products */;
+					ProjectRef = 1EF971941CF59D9B007244DE /* cocos2dx.xcodeproj */;
+				},
+				{
+					ProductGroup = 1EF971791CF59BF4007244DE /* Products */;
+					ProjectRef = 1EF971781CF59BF4007244DE /* ExtensionTerrain.xcodeproj */;
+				},
+				{
+					ProductGroup = 1EF9717F1CF59C2F007244DE /* Products */;
+					ProjectRef = 1EF9717E1CF59C2F007244DE /* Horde3DEngine.xcodeproj */;
+				},
+				{
+					ProductGroup = 1EF971851CF59C86007244DE /* Products */;
+					ProjectRef = 1EF971841CF59C86007244DE /* Horde3dUtils.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1EF971411CF59A9D007244DE /* ChiCagoX */,
+				1EF9715A1CF59A9D007244DE /* ChiCagoXTests */,
+				1EF971651CF59A9D007244DE /* ChiCagoXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1EF9717D1CF59BF4007244DE /* libExtensionTerrain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExtensionTerrain.a;
+			remoteRef = 1EF9717C1CF59BF4007244DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF971831CF59C2F007244DE /* libHorde3DEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHorde3DEngine.a;
+			remoteRef = 1EF971821CF59C2F007244DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF971891CF59C86007244DE /* libHorde3dUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHorde3dUtils.a;
+			remoteRef = 1EF971881CF59C86007244DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF971991CF59D9B007244DE /* libcocos2dx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2dx.a;
+			remoteRef = 1EF971981CF59D9B007244DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF971401CF59A9D007244DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3E49F31D00051200255320 /* Content in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971591CF59A9D007244DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971641CF59A9D007244DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF9713E1CF59A9D007244DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0F480D1CF6A23A00434DFB /* RootViewController.mm in Sources */,
+				1E0F480C1CF6A23A00434DFB /* AppController.mm in Sources */,
+				1EF9718C1CF59D14007244DE /* AppDelegate1.mm in Sources */,
+				1EF739CB1E0BAC290027DAF9 /* CScene.cpp in Sources */,
+				1E0F48061CF6A0B600434DFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971571CF59A9D007244DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF971601CF59A9D007244DE /* ChiCagoXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF971621CF59A9D007244DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF9716B1CF59A9D007244DE /* ChiCagoXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF9715D1CF59A9D007244DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF971411CF59A9D007244DE /* ChiCagoX */;
+			targetProxy = 1EF9715C1CF59A9D007244DE /* PBXContainerItemProxy */;
+		};
+		1EF971681CF59A9D007244DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF971411CF59A9D007244DE /* ChiCagoX */;
+			targetProxy = 1EF971671CF59A9D007244DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EF971531CF59A9D007244DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF971541CF59A9D007244DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF9716D1CF59A9D007244DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					HORDE3D_GLES2,
+					"COCOS2D_DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx-mini\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/include\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios/Simulation\"",
+					"\"$(SRCROOT)/../../../../Bindings/C++\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF9716E1CF59A9D007244DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					HORDE3D_GLES2,
+					CC_TARGET_OS_IPHONE,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx-mini\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/include\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios/Simulation\"",
+					"\"$(SRCROOT)/../../../../Bindings/C++\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF971701CF59A9D007244DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx-mini\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/include\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios/Simulation\"",
+					"\"$(SRCROOT)/../../../../Source/Horde3DEngine\"",
+					"\"$(SRCROOT)/../../../../Source/Shared\"",
+					"\"$(SRCROOT)/../../../../Source/Me\"",
+				);
+				INFOPLIST_FILE = ChiCagoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ChiCagoX",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reg.visionindemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		1EF971711CF59A9D007244DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx-mini\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/include\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/third_party/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios\"",
+					"\"$(SRCROOT)/../../../cocos2dx-mini/platform/ios/Simulation\"",
+					"\"$(SRCROOT)/../../../../Source/Horde3DEngine\"",
+					"\"$(SRCROOT)/../../../../Source/Shared\"",
+					"\"$(SRCROOT)/../../../../Source/Me\"",
+				);
+				INFOPLIST_FILE = ChiCagoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ChiCagoX",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reg.visionindemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		1EF971731CF59A9D007244DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChiCagoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.ChiCagoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiCagoX.app/ChiCagoX";
+			};
+			name = Debug;
+		};
+		1EF971741CF59A9D007244DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChiCagoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.ChiCagoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiCagoX.app/ChiCagoX";
+			};
+			name = Release;
+		};
+		1EF971761CF59A9D007244DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChiCagoXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.ChiCagoXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChiCagoX;
+			};
+			name = Debug;
+		};
+		1EF971771CF59A9D007244DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChiCagoXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.ChiCagoXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChiCagoX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF9713D1CF59A9D007244DE /* Build configuration list for PBXProject "ChiCagoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF9716D1CF59A9D007244DE /* Debug */,
+				1EF9716E1CF59A9D007244DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF9716F1CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF971701CF59A9D007244DE /* Debug */,
+				1EF971711CF59A9D007244DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF971721CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF971731CF59A9D007244DE /* Debug */,
+				1EF971741CF59A9D007244DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF971751CF59A9D007244DE /* Build configuration list for PBXNativeTarget "ChiCagoXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF971761CF59A9D007244DE /* Debug */,
+				1EF971771CF59A9D007244DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF9713A1CF59A9D007244DE /* Project object */;
+}

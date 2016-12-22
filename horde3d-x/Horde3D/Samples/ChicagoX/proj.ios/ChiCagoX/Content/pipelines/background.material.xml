@@ -1,0 +1,4 @@
+<Material>
+    <Shader source="shaders/background.shader"/>
+    <Sampler name="albedoMap" map="back_mem" vertPos="[[0,1.0,-1],[1.8,1.0,-1],[1.8,0,-1],[0,0,-1]]" texCoords="[[0,1],[0,0],[1,0],[1,1]]"/>
+</Material>

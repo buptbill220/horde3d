@@ -1,0 +1,107 @@
+<Model name="astroBoy_walk_Maya" geometry="astroBoy_walk_Maya.geo">
+	<Joint name="root" tx="0" ty="6.84326" tz="-0.145007" rx="0.42262" ry="85.452" rz="5.29783" jointIndex="1">
+		<Joint name="spine01" tx="0" ty="1.17004" tz="0" rx="3.27426" ry="171.888" rz="21.8368" jointIndex="2">
+			<Joint name="spine02" tx="0" ty="1.2286" tz="0" rx="4.84378" ry="-3.857" rz="-5.7403" jointIndex="3">
+				<Joint name="neck01" tx="0" ty="2.26908" tz="0" rx="-7.51254" ry="0.00234022" rz="-19.1996" jointIndex="4">
+					<Joint name="head" tx="0" ty="0.75196" tz="0" rx="-10.631" ry="4.69005" rz="-1.63929" jointIndex="5">
+						<Joint name="headEnd" tx="0" ty="2.51709" tz="0" rx="-0" ry="90" rz="0" jointIndex="6" />
+					</Joint>
+				</Joint>
+				<Joint name="L_clavicle" tx="-0.074762" ty="1.5312" tz="-0.785255" rx="-78.9747" ry="90.0601" rz="-89.5335" jointIndex="7">
+					<Joint name="L_shoulder" tx="0" ty="0.228196" tz="0" rx="-42.7361" ry="18.371" rz="-39.0351" jointIndex="8">
+						<Joint name="L_bicep" tx="0" ty="1.41756" tz="0" jointIndex="9">
+							<Joint name="L_elbow" tx="0" ty="1.25358" tz="0" rx="0.00114584" ry="-3.31756e-05" rz="-86.2022" jointIndex="10">
+								<Joint name="L_forearm" tx="0" ty="1.20085" tz="-2.4e-05" jointIndex="11">
+									<Joint name="L_wrist" tx="0" ty="1.09517" tz="2.4e-05" rx="-0" ry="0" rz="-14.3503" jointIndex="12">
+										<Joint name="L_pinky_01" tx="-0.416125" ty="1.47519" tz="-0.148313" rx="-45.3433" ry="-11.5154" rz="15.9825" jointIndex="13">
+											<Joint name="L_pinky_02" tx="1e-06" ty="0.537589" tz="0" rx="-78.4584" ry="171.675" rz="-171.517" jointIndex="14">
+												<Joint name="L_pinkyEnd" tx="0" ty="0.728443" tz="0" rx="8.14222e-13" ry="90" rz="4.17233e-13" jointIndex="15" />
+											</Joint>
+										</Joint>
+										<Joint name="L_middle_01" tx="-0.00839258" ty="1.55631" tz="-0.0346777" rx="-46.8167" ry="-1.47802" rz="2.0266" jointIndex="16">
+											<Joint name="L_middle_02" tx="0" ty="0.569846" tz="0" rx="-78.944" ry="180" rz="180" jointIndex="17">
+												<Joint name="L_middleEnd" tx="0" ty="0.76573" tz="0" rx="-1.1e-05" ry="-90" rz="0" jointIndex="18" />
+											</Joint>
+										</Joint>
+										<Joint name="L_index_01" tx="0.389544" ty="1.49025" tz="-0.0346762" rx="-49.6153" ry="8.36549" rz="-10.927" jointIndex="19">
+											<Joint name="L_index_02" tx="-1e-06" ty="0.571877" tz="0" rx="-66.4549" ry="-178.24" rz="178.031" jointIndex="20">
+												<Joint name="L_indexEnd" tx="0" ty="0.715153" tz="0" rx="-0" ry="-73.0774" rz="0" jointIndex="21" />
+											</Joint>
+										</Joint>
+										<Joint name="L_thumb_01" tx="0.475945" ty="0.715565" tz="-0.178756" rx="-21.0981" ry="19.5737" rz="-31.9823" jointIndex="22">
+											<Joint name="L_thumb_02" tx="-2e-06" ty="0.318426" tz="1e-06" rx="-10.3032" ry="-10.2199" rz="14.0386" jointIndex="23">
+												<Joint name="L_thumbEnd" tx="0" ty="0.584036" tz="0" rx="-0" ry="-10.4507" rz="0" jointIndex="24" />
+											</Joint>
+										</Joint>
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+				<Joint name="R_clavicle" tx="-0.074771" ty="1.53115" tz="0.785255" rx="78.9751" ry="-90.0601" rz="90.4665" jointIndex="25">
+					<Joint name="R_shoulder" tx="0" ty="-0.228195" tz="-4.5e-05" rx="-65.1677" ry="29.2389" rz="36.8062" jointIndex="26">
+						<Joint name="R_bicep" tx="0" ty="-1.41756" tz="0" jointIndex="27">
+							<Joint name="R_elbow" tx="0" ty="-1.25358" tz="0" rx="0.00114584" ry="-3.31756e-05" rz="-115.959" jointIndex="28">
+								<Joint name="R_forearm" tx="0" ty="-1.20085" tz="2.4e-05" jointIndex="29">
+									<Joint name="R_wrist" tx="0" ty="-1.09517" tz="2.1e-05" jointIndex="30">
+										<Joint name="R_pinky_01" tx="0.416121" ty="-1.47519" tz="0.148229" rx="-64.7366" ry="-24.707" rz="26.9653" jointIndex="31">
+											<Joint name="R_pinky_02" tx="0" ty="-0.53759" tz="1e-06" rx="-78.1141" ry="8.05321" rz="-8.23819" jointIndex="32">
+												<Joint name="R_pinkyEnd" tx="6e-06" ty="-0.728443" tz="0" rx="1e-06" ry="90" rz="3.03984e-12" jointIndex="33" />
+											</Joint>
+										</Joint>
+										<Joint name="R_middle_01" tx="0.00839158" ty="-1.55631" tz="0.0346307" rx="-67.5098" ry="-3.35202" rz="3.62724" jointIndex="34">
+											<Joint name="R_middle_02" tx="0" ty="-0.56985" tz="0" rx="-77.8706" ry="0" rz="0" jointIndex="35">
+												<Joint name="R_middleEnd" tx="0" ty="-0.76573" tz="0" rx="1.1e-05" ry="-90" rz="0" jointIndex="36" />
+											</Joint>
+										</Joint>
+										<Joint name="R_index_01" tx="-0.389545" ty="-1.49024" tz="0.0346292" rx="-63.3679" ry="14.2869" rz="-15.9013" jointIndex="37">
+											<Joint name="R_index_02" tx="0" ty="-0.568088" tz="0.065682" rx="-84.1732" ry="-7.6839" rz="7.76885" jointIndex="38">
+												<Joint name="R_indexEnd" tx="0" ty="-0.715158" tz="-5.3e-05" rx="-0" ry="-73.0774" rz="0" jointIndex="39" />
+											</Joint>
+										</Joint>
+										<Joint name="R_thumb_01" tx="-0.475946" ty="-0.71557" tz="0.178713" rx="33.8415" ry="-3.08091" rz="-36.9516" jointIndex="40">
+											<Joint name="R_thumb_02" tx="0" ty="-0.173694" tz="0.266881" rx="-65.38" ry="-24.7722" rz="34.9505" jointIndex="41">
+												<Joint name="R_thumbEnd" tx="-2e-06" ty="-0.584023" tz="-7e-06" rx="-0" ry="-10.4507" rz="0" jointIndex="42" />
+											</Joint>
+										</Joint>
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+		</Joint>
+		<Joint name="hips" tx="0.208883" ty="-0.325701" tz="0" rx="-0" ry="-84.241" rz="0" jointIndex="43">
+			<Joint name="L_hip" tx="0.869767" ty="-0.165438" tz="0.287855" rx="0.201265" ry="88.9075" rz="-172.257" jointIndex="44">
+				<Joint name="L_knee_01" tx="0" ty="2.5464" tz="0" rx="1.08024e-06" ry="-180" rz="-23.5127" jointIndex="45">
+					<Joint name="L_knee_02" tx="0" ty="0.499024" tz="0" rx="-0" ry="0" rz="-10.0592" jointIndex="46">
+						<Joint name="L_ankle" tx="0" ty="2.91891" tz="0" rx="0.216515" ry="179.941" rz="-71.9556" jointIndex="47">
+							<Joint name="L_toeBall" tx="0" ty="1.59437" tz="0" rx="-4.09428e-07" ry="9.12343e-07" rz="-65.8311" jointIndex="48">
+								<Joint name="L_toeEnd" tx="0" ty="1.64488" tz="0" rx="-90" ry="0" rz="-90" jointIndex="49" />
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="R_hip" tx="-0.869767" ty="-0.165436" tz="0.287855" rx="-10.6672" ry="75.0087" rz="-38.683" jointIndex="50">
+				<Joint name="R_knee_01" tx="0" ty="-2.5464" tz="0" rx="4.89109e-06" ry="180" rz="-14.1245" jointIndex="51">
+					<Joint name="R_knee_02" tx="0" ty="-0.499026" tz="0" rx="1.50119e-05" ry="-8.01509e-07" rz="-0.694354" jointIndex="52">
+						<Joint name="R_ankle" tx="0" ty="-2.91892" tz="0" rx="3.91227" ry="179.56" rz="-69.2944" jointIndex="53">
+							<Joint name="R_toeBall" tx="0" ty="-1.59437" tz="0" rx="5.27541e-06" ry="7.36003e-06" rz="-29.2914" jointIndex="54">
+								<Joint name="R_toeEnd" tx="0" ty="-1.64488" tz="0" rx="-90" ry="0" rz="-90" jointIndex="55" />
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="boy" material="face.material.xml" batchStart="0" batchCount="2970" vertRStart="0" vertREnd="662">
+		<Mesh name="#boy" material="glass.material.xml" batchStart="2970" batchCount="72" vertRStart="663" vertREnd="690" />
+		<Mesh name="#boy" material="shiny.material.xml" batchStart="3042" batchCount="8247" vertRStart="691" vertREnd="2763" />
+		<Mesh name="#boy" material="matte.material.xml" batchStart="11289" batchCount="3354" vertRStart="2764" vertREnd="3589" />
+	</Mesh>
+</Model>

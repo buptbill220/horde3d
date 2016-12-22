@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C736DBBA3135B8D068461A9877E5A311F10A006E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C736DBBA3135B8D068461A9877E5A311F10A006E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BF54C4F2-5B82-4C92-82AF-6C34FA0A0EB5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C736DBBA3135B8D068461A9877E5A311F10A006E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KnightX",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Horde3D\/Samples\/KnightX\/proj.ios\/KnightX.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/attilaz\/horde3d-x.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C736DBBA3135B8D068461A9877E5A311F10A006E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/attilaz\/horde3d-x.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C736DBBA3135B8D068461A9877E5A311F10A006E"
+    }
+  ]
+}

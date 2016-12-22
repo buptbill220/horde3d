@@ -1,0 +1,15 @@
+<!-- Forward Shading Pipeline -->
+<Pipeline>
+	<CommandQueue>
+        <Stage id="Geometry">
+            <SwitchTarget target="" />
+            <!--这个必须要，深度测试需要；已经帧间clear需要-->
+			<ClearTarget depthBuf="true" colBuf0="true" col_R="0.3" col_G="0.4" col_B="0.5" col_A="1.0"/>
+            <DrawGeometry context="GENERAL" class="" order="BACK_TO_FRONT" />
+            <DoForwardLightLoop class="" />
+        </Stage>
+		<Stage id="Overlays">
+			<DrawOverlays context="OVERLAY" />
+		</Stage>
+	</CommandQueue>
+</Pipeline>

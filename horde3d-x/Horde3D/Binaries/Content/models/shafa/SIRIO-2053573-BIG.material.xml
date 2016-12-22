@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="shaders/model.shader" />
+
+	<Sampler name="albedoMap" map="model/SIRIO-2053573-BIG.jpg" />
+</Material>

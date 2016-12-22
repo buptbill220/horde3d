@@ -1,0 +1,31 @@
+<Model name="model" geometry="model.geo">
+
+	<Mesh name="Piece.ArckitWindowPicture" material="material.material.xml" batchStart="0" batchCount="18" vertRStart="0" vertREnd="17">
+		<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="18" batchCount="18" vertRStart="18" vertREnd="35" />
+>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="36" batchCount="1269" vertRStart="36" vertREnd="1099">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="1305" batchCount="1269" vertRStart="1100" vertREnd="2163" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="2574" batchCount="24" vertRStart="2164" vertREnd="2187">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="2598" batchCount="24" vertRStart="2188" vertREnd="2211" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="2622" batchCount="210" vertRStart="2212" vertREnd="2421">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="2832" batchCount="210" vertRStart="2422" vertREnd="2631" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="material.material.xml" batchStart="3042" batchCount="6" vertRStart="2632" vertREnd="2636">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="3048" batchCount="6" vertRStart="2637" vertREnd="2641" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="3054" batchCount="210" vertRStart="2642" vertREnd="2851">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="3264" batchCount="210" vertRStart="2852" vertREnd="3061" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="3474" batchCount="210" vertRStart="3062" vertREnd="3133">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="3684" batchCount="210" vertRStart="3134" vertREnd="3205" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="3894" batchCount="210" vertRStart="3206" vertREnd="3415">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="4104" batchCount="210" vertRStart="3416" vertREnd="3625" />
+		</Mesh>
+		<Mesh name="Piece.ArckitWindowPicture" material="Arckit__White_.material.xml" batchStart="4314" batchCount="411" vertRStart="3626" vertREnd="3792">
+			<Mesh name="#Piece.ArckitWindowPicture" material="material_0.material.xml" batchStart="4725" batchCount="411" vertRStart="3793" vertREnd="3959" />
+		</Mesh>
+	</Mesh>
+</Model>

@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="shaders/model.shader" />
+
+	<Sampler name="albedoMap" map="model/Spiraea_Snow_Storm_Flower_SU.png" />
+</Material>

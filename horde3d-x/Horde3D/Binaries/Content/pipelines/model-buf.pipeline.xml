@@ -1,0 +1,19 @@
+<!-- Forward Shading Pipeline -->
+<Pipeline>
+    <Setup>
+        <RenderTarget id="vs3d" depthBuf="true" numColBufs="1" format="RGBA8" scale="1.0" />
+    </Setup>
+    <CommandQueue>
+        <Stage id="Geometry">
+            <SwitchTarget target="vs3d" />
+            <!--这个必须要，深度测试需要；已经帧间clear需要-->
+            <!--<ClearTarget depthBuf="true" colBuf0="true" col_R="0.3" col_G="0.4" col_B="0.5" col_A="1.0"/>-->
+            <ClearTarget depthBuf="true"/>
+            <!--自定义节点，渲染背景-->
+            <DrawGeometry context="GENERAL" class="" order="BACK_TO_FRONT" />
+            <!--<DoForwardLightLoop class="" />-->
+            <!--<DrawBackground context="BACKGROUND" class="" order="BACK_TO_FRONT"/>-->
+            <DrawOverlays context="OVERLAY" />
+        </Stage>
+    </CommandQueue>
+</Pipeline>

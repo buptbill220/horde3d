@@ -1,0 +1,39 @@
+<Model name="model" geometry="model.geo">
+
+	<Mesh name="group_0" material="Color_M06.material.xml" tx="0" ty="-1.23912e-06" tz="0.0629883" batchStart="0" batchCount="3984" vertRStart="0" vertREnd="3983">
+		<Mesh name="#group_0" material="Color_M05.material.xml" batchStart="3984" batchCount="3984" vertRStart="3984" vertREnd="7967" />
+>
+		<Mesh name="group_0" material="Color_M07.material.xml" batchStart="7968" batchCount="624" vertRStart="7968" vertREnd="8591">
+			<Mesh name="#group_0" material="Color_M05.material.xml" batchStart="8592" batchCount="624" vertRStart="8592" vertREnd="9215" />
+		</Mesh>
+		<Mesh name="group_0" material="Color_M07.material.xml" batchStart="9216" batchCount="1248" vertRStart="9216" vertREnd="10463" />
+		<Mesh name="group_0" material="Color_M06.material.xml" batchStart="10464" batchCount="3984" vertRStart="10464" vertREnd="14419">
+			<Mesh name="#group_0" material="Color_M05.material.xml" batchStart="14448" batchCount="3984" vertRStart="14420" vertREnd="18375" />
+		</Mesh>
+		<Mesh name="group_0" material="Color_M07.material.xml" batchStart="18432" batchCount="624" vertRStart="18376" vertREnd="18744">
+			<Mesh name="#group_0" material="Color_M05.material.xml" batchStart="19056" batchCount="624" vertRStart="18745" vertREnd="19113" />
+		</Mesh>
+		<Mesh name="group_0" material="Color_M07.material.xml" batchStart="19680" batchCount="624" vertRStart="19114" vertREnd="19737">
+			<Mesh name="#group_0" material="Color_M05.material.xml" batchStart="20304" batchCount="624" vertRStart="19738" vertREnd="20361" />
+		</Mesh>
+	</Mesh>
+	<Mesh name="group_1" material="SIRIO-2053573-BIG.material.xml" tx="-32.7631" ty="101.467" tz="15.9071" batchStart="20928" batchCount="25872" vertRStart="20362" vertREnd="46233" />
+	<Mesh name="group_2" material="SIRIO-2053573-BIG.material.xml" tx="1156.71" ty="220.875" tz="19.2294" batchStart="46800" batchCount="6492" vertRStart="46234" vertREnd="52717">
+		<Mesh name="group_2" material="SIRIO-2053573-BIG.material.xml" batchStart="53292" batchCount="2592" vertRStart="52718" vertREnd="55309" />
+		<Mesh name="group_2" material="SIRIO-2053573-BIG.material.xml" batchStart="55884" batchCount="1980" vertRStart="55310" vertREnd="57289" />
+	</Mesh>
+	<Mesh name="group_3" material="SIRIO-2053573-BIG.material.xml" tx="1159.01" ty="323.39" tz="-585.084" batchStart="57864" batchCount="7416" vertRStart="57290" vertREnd="64705">
+		<Mesh name="group_3" material="SIRIO-2053573-BIG.material.xml" batchStart="65280" batchCount="1680" vertRStart="64706" vertREnd="66385" />
+		<Mesh name="group_3" material="SIRIO-2053573-BIG.material.xml" batchStart="66960" batchCount="1824" vertRStart="66386" vertREnd="68209" />
+	</Mesh>
+	<Mesh name="group_5" material="SIRIO-2053573-BIG.material.xml" tx="225.87" ty="318.58" tz="-587.062" batchStart="68784" batchCount="6672" vertRStart="68210" vertREnd="74881">
+		<Mesh name="group_5" material="SIRIO-2053573-BIG.material.xml" batchStart="75456" batchCount="372" vertRStart="74882" vertREnd="75253" />
+		<Mesh name="group_5" material="SIRIO-2053573-BIG.material.xml" batchStart="75828" batchCount="1680" vertRStart="75254" vertREnd="76933" />
+		<Mesh name="group_5" material="SIRIO-2053573-BIG.material.xml" batchStart="77508" batchCount="372" vertRStart="76934" vertREnd="77303" />
+		<Mesh name="group_5" material="SIRIO-2053573-BIG.material.xml" batchStart="77880" batchCount="1824" vertRStart="77304" vertREnd="79127" />
+	</Mesh>
+	<Mesh name="group_6" material="SIRIO-2053573-BIG.material.xml" tx="235.743" ty="220.875" tz="19.2294" batchStart="79704" batchCount="6504" vertRStart="79128" vertREnd="85615">
+		<Mesh name="group_6" material="SIRIO-2053573-BIG.material.xml" batchStart="86208" batchCount="1980" vertRStart="85616" vertREnd="87595" />
+		<Mesh name="group_6" material="SIRIO-2053573-BIG.material.xml" batchStart="88188" batchCount="2604" vertRStart="87596" vertREnd="90199" />
+	</Mesh>
+</Model>

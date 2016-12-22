@@ -1,0 +1,218 @@
+/Horde3D/Binaries/Win32_d3d11/Sample_KnightX.exe
+
+/Horde3D/Binaries/Win32_d3d11/Horde3D_Log.html
+
+/Horde3D/Binaries/Win32_d3d11/Horde3DUtils.dll
+
+/Horde3D/Binaries/Win32_d3d11/Horde3D.dll
+
+/Horde3D/Binaries/win32_gles2/Sample_KnightX.exe
+
+/Horde3D/Binaries/win32_gles2/Horde3D_Log.html
+
+/Horde3D/Binaries/win32_gles2/Horde3D.dll
+
+/Horde3D/Binaries/win32_gles2/Horde3DUtils.dll
+
+/Horde3D/Build/Collada Converter/Debug
+
+/Horde3D/Build/Extension Terrain/Debug
+
+/Horde3D/Build/Extension Terrain/Debug_d3d11
+
+/Horde3D/Build/Extension Terrain/Debug_gles2
+
+/Horde3D/Build/Horde3D Engine/Debug
+
+/Horde3D/Build/Horde3D Engine/Debug_d3d11
+
+/Horde3D/Build/Horde3D Engine/Debug_gles2
+
+/Horde3D/Build/Horde3D Utils/Debug
+
+/Horde3D/Build/Horde3D Utils/Debug_d3d11
+
+/Horde3D/Build/Horde3D Utils/Debug_gles2
+
+/Horde3D/Build/Sample Chicago/Debug
+
+/Horde3D/Build/Sample Knight/Debug
+
+/Horde3D/Build/Sample KnightX/Debug
+
+/Horde3D/Build/Sample KnightX/Debug_d3d11
+
+/Horde3D/Build/Sample KnightX/Debug_gles2
+
+/Horde3D/Build/glfw/Debug
+
+/Horde3D/Source/Horde3DUtils/Debug_d3d11
+
+/Horde3D/Source/Horde3DUtils/Debug_gles2
+
+/Extensions/Terrain/Source/Debug_d3d11
+
+/Extensions/Terrain/Source/Debug_gles2
+/Horde3D/*.ncb
+
+/Horde3D/*.suo
+
+/Horde3D/Binaries/Win32/*.exe
+
+/Horde3D/Binaries/Win32/*.dll
+
+/Horde3D/Binaries/Win32/*.html
+
+/Horde3D/Build/glfw/*.idb
+
+/Horde3D/Build/glfw/*.pdb
+
+/Horde3D/Bindings/C++/*.lib
+
+/Horde3D/Build/*.lib
+
+/Horde3D/Samples/glfw/*.lib
+
+/Extensions/Terrain/Source/Extension Terrain.vcproj.Attila-HP.Attila.user
+
+/Horde3D/Samples/Chicago/Sample Chicago.vcproj.Attila-HP.Attila.user
+
+/Horde3D/Samples/Knight/Sample Knight.vcproj.Attila-HP.Attila.user
+/Horde3D/Samples/KnightX/win32/Sample KnightX.vcproj.Attila-HP.Attila.user
+/Horde3D/Samples/glfw/glfw.vcproj.Attila-HP.Attila.user
+/Horde3D/Source/ColladaConverter/Collada Converter.vcproj.Attila-HP.Attila.user
+/Horde3D/Source/Horde3DEngine/Horde3D Engine.vcproj.Attila-HP.Attila.user
+/Horde3D/Source/Horde3DUtils/Horde3D Utils.vcproj.Attila-HP.Attila.user
+
+/Extensions/Terrain/Source/Extension Terrain.vcproj.Attila-PC.Attila.user
+/Horde3D/Samples/KnightX/win32/Sample KnightX.vcproj.Attila-PC.Attila.user
+/Horde3D/Source/Horde3DEngine/Horde3D Engine.vcproj.Attila-PC.Attila.user
+/Horde3D/Source/Horde3DUtils/Horde3D Utils.vcproj.Attila-PC.Attila.user
+
+/Horde3D/Build/Sample ChicagoX/Debug
+
+/Horde3D/Build/Sample ChicagoX/Debug_d3d11
+
+/Horde3D/Build/Sample ChicagoX/Debug_gles2
+
+/Horde3D/Binaries/Win32_d3d11/Sample_ChicagoX.exe
+
+/Horde3D/Binaries/win32_gles2/Sample_ChicagoX.exe
+
+/Horde3D/Samples/ChicagoX/Win32/ChicagoX.vcproj.Attila-PC.Attila.user
+
+/Horde3D/Build/Extension Terrain/Debug_gl
+
+/Horde3D/Build/Horde3D Engine/Debug_gl
+
+/Horde3D/Build/Horde3D Utils/Debug_gl
+
+/Horde3D/Build/Sample ChicagoX/Debug_gl
+
+/Horde3D/Build/Sample KnightX/Debug_gl
+
+/Horde3D/Samples/ChicagoX/Win32/ChicagoX.vcproj.Attila-HP.Attila.user
+
+/Horde3D/Debug/*.lib
+
+/Horde3D/Debug_d3d11/*.lib
+
+/Horde3D/Debug_gl/*.lib
+
+/Horde3D/Debug_gles2/*.lib
+
+/Horde3D/Samples/ChicagoX/proj.win32/ChicagoX.vcproj.Attila-PC.Attila.user
+
+/Horde3D/Samples/KnightX/proj.win32/Sample KnightX.vcproj.Attila-PC.Attila.user
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/Debug
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/Debug_d3d11
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/Debug_gl
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/Debug_gles2
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/cocos2d-x-mini.vcproj.Attila-PC.Attila.user
+
+/Horde3D/Samples/ChicagoX/proj.win32/ChicagoX.vcproj.Attila-HP.Attila.user
+
+/Horde3D/Samples/KnightX/proj.win32/Sample KnightX.vcproj.Attila-HP.Attila.user
+
+/Horde3D/Samples/cocos2d-x-mini/proj.win32/cocos2d-x-mini.vcproj.Attila-HP.Attila.user
+/Horde3D/Samples/KnightX/proj.android/obj/local/armeabi
+
+/Horde3D/Samples/KnightX/proj.android/obj/convert-dependencies.sh
+/Horde3D/Samples/KnightX/proj.android/assets
+
+/Horde3D/Samples/KnightX/proj.android/libs/armeabi
+
+/Horde3D/Build/Extension_Terrain/Debug_gl/*.tlog
+
+/Horde3D/Build/Extension_Terrain/Debug_gl
+
+/Horde3D/Build/Extension_Terrain/Debug_gles2
+
+/Horde3D/Build/Horde3D_Engine/Debug_gl
+
+/Horde3D/Build/Horde3D_Engine/Debug_gles2
+/Horde3D/Build/Horde3D_Utils/Debug_gl
+/Horde3D/Build/Horde3D_Utils/Debug_gles2
+
+/Horde3D/Build/Sample_ChicagoX/Debug_gl
+/Horde3D/Build/Sample_ChicagoX/Debug_gles2
+/Horde3D/Build/Sample_KnightX/Debug_gl
+
+/Horde3D/Build/Sample_KnightX/Debug_gles2
+
+/Horde3D/Build/cocos2d-x-mini/Debug_gl
+
+/Horde3D/Build/cocos2d-x-mini/Debug_gles2
+
+/Horde3D/*.sdf
+/Horde3D/Build/Extension_Terrain/Debug_d3d11
+/Horde3D/Build/Horde3D_Engine/Debug_d3d11
+/Horde3D/Build/Horde3D_Utils/Debug_d3d11
+/Horde3D/Build/Sample_ChicagoX/Debug_d3d11
+
+/Horde3D/Build/Sample_KnightX/Debug_d3d11
+
+/Horde3D/Build/cocos2d-x-mini/Debug_d3d11
+
+/Horde3D/Samples/Build/Sample_ChicagoX/Release_gl
+
+/Horde3D/Samples/Build/Sample_KnightX/Release_gl
+
+/Horde3D/Build/cocos2dx-mini/Debug_d3d11
+
+/Horde3D/Build/cocos2dx-mini/Debug_gl
+
+/Horde3D/Build/cocos2dx-mini/Debug_gles2
+
+/Horde3D/Samples/ChicagoX/proj.android/assets/Content
+/Horde3D/Samples/KnightX/proj.android/assets/Content
+/Horde3D/Samples/ChicagoX/proj.android/bin
+/Horde3D/Samples/KnightX/proj.android/bin
+/Horde3D/Samples/ChicagoX/proj.android/gen
+/Horde3D/Samples/KnightX/proj.android/gen
+/Horde3D/Samples/ChicagoX/proj.android/obj
+/Horde3D/Samples/KnightX/proj.android/obj
+/Horde3D/Samples/cocos2dx-mini/platform/android/java/bin
+
+/Horde3D/Samples/ChicagoX/proj.android/libs/armeabi
+
+/Horde3D/Samples/cocos2dx-mini/platform/android/java/gen
+
+/Horde3D/Samples/cocos2dx-mini/platform/android/java/local.properties
+
+/Horde3D/Samples/KnightX/proj.android/local.properties
+
+/Horde3D/Binaries/Win32_d3d11/Horde3D_Engine.dll
+
+/Horde3D/Binaries/Win32_d3d11/Horde3D_Utils.dll
+
+/Horde3D/Binaries/win32_gles2/Horde3D_Engine.dll
+
+/Horde3D/Binaries/win32_gles2/Horde3D_Utils.dll
+
+/Horde3D/Samples/ChicagoX/proj.android/local.properties
